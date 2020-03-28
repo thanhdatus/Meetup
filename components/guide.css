@@ -7,6 +7,7 @@
 .container-guide{
 	width: 100%;
 	background-color: #0f1721;
+	margin-top: 42px;
 }
 
 .guide{
@@ -14,6 +15,7 @@
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 100px;
 }
 
 .container-guide > h2{
@@ -43,7 +45,6 @@
 
 .button-guide >span{
 	margin-right: 16px;
-	display: block;
 }
 
 #image-icon{
@@ -62,8 +63,8 @@
 }
 
 #icon-next-1{
-	width: 18px;
-	height: 16px;
+	width: 17px;
+	height: 12px;
 	fill: #00a2c7;
 }
 
@@ -74,6 +75,7 @@
 .wrapper-guide-app > h2{
 	font-size: 32px;
 	font-weight: 500px;
+	padding-bottom: 8px;
 }
 
 .container-guide-app{

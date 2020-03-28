@@ -1,78 +1,79 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.findGroup{
-	width: 1058px;
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
+.findGroup {
+  width: 1058px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
 }
 
-.findGroup > div > h2{
-	font-size: 20px;
-	font-weight: 600;
-	padding-bottom: 10px;
+.findGroup > div > h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
 
-.text-introduce{
-	font-size: 16px;
-	padding-bottom: 20px;
-	font-weight: 400;
+.text-introduce {
+  font-size: 16px;
+  padding-bottom: 20px;
+  font-weight: 400;
 }
 
 .findGroup a {
-	font-size: 17px;
-	font-weight: bold;
-	color: #00a2c7;
-	text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #00a2c7;
+  text-decoration: none;
 }
 
-.introduceGroup{
-	width: 250px;
-	position: relative;
-	border-radius: 5px;
-	box-shadow: 0px 0px 5px 1px #efeaea;
+.introduceGroup {
+  width: 250px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px #efeaea;
 }
 
-.introduceGroup >div:nth-child(1){
-	width: 250px;
-	height: 140px;
-	background-image: url("https://www.meetup.com/mu_static/en-US/group_fallback_large_1.c704554b.png");
-	background-size: cover;
-	background-position: center;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+.introduceGroup > div:nth-child(1) {
+  width: 250px;
+  height: 140px;
+  background-image: url('https://www.meetup.com/mu_static/en-US/group_fallback_large_1.c704554b.png');
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
-.introduceGroup >div:nth-child(2){
-	padding-left: 20px;
-	padding-top: 20px;
-	font-size: 14px;
-	color: rgba(46,62,72,.6);
+.introduceGroup > div:nth-child(2) {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: rgba(46, 62, 72, 0.6);
 }
 
-.introduceGroup >div:nth-child(3)> h2{
-	padding-left: 20px;
-	padding-top: 3px;
-	font-size: 20px;
-	font-weight: 600;
+.introduceGroup > div:nth-child(3) > h2 {
+  padding-left: 20px;
+  padding-top: 3px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.introduceGroup >div:nth-child(4){
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-bottom: 24px;
-	font-size: 14px;
-	color: rgba(46,62,72,.6);
+.introduceGroup > div:nth-child(4) {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  font-size: 14px;
+  color: rgba(46, 62, 72, 0.6);
 }
 
-.link-group{
-	display: block;
-	position: absolute;
-	width: 250px;
-	height: 100%;
-	top: 0px;
+.link-group {
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  top: 0px;
 }

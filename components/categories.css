@@ -1,51 +1,58 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.categories{
-	width: 1058px;
-	margin: auto;
+.categories {
+  width: 1058px;
+  margin: auto;
+  margin-top: 64px;
 }
 
-.categories > h2{
-	font-size: 20px;
+.categories > h2 {
+  font-size: 20px;
 }
 
-.categories > p{
-	font-size: 18px;
-	margin-top: 5px;
+.categories > p {
+  font-size: 18px;
+  margin-top: 5px;
 }
 
-.list-categories1, .list-categories2, .list-categories3, .list-categories4, .list-categories5, .list-categories6{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 23px;
+.list-categories1,
+.list-categories2,
+.list-categories3,
+.list-categories4,
+.list-categories5,
+.list-categories6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
 }
 
-.category{
-	width: 250px;
-	height: 160px;
-	background-color: blue;
-	background-size: cover;
-	background-position: center;
-	border-radius: 6px;
+.category {
+  width: 250px;
+  height: 160px;
+  background-color: blue;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
 }
 
-.link-category{
-	display: block;
-	position: absolute;
-	width: 250px;
-	height: 100%;
-	top: 0px;
+.link-category {
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  top: 0px;
 }
 
-.wrapper-category{
-	position: relative;
+.wrapper-category {
+  position: relative;
 }
 
-.wrapper-category > h4{
-	font-size: 16px;
-	font-weight: bold;
+.wrapper-category > h4 {
+  padding-top: 12px;
+  font-size: 16px;
+  font-weight: bold;
 }
